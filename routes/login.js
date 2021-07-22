@@ -87,4 +87,6 @@ router.get("/secret-route",userMiddleware.isLoggedin, (req, res, next) => {
   res.send(req.userDate);
 
 });
+
+
 module.exports = router;
